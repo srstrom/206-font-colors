@@ -1,0 +1,60 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+@media (min-width: 390px) {
+
+  .title {
+    color: #7b7d70;
+  }
+
+  .subtitle {
+    color: #4eafb8;
+  }
+  
+  .paragraph {
+    color: #ff8641;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    color: #02cbd2;
+  }
+
+  .subtitle {
+    color: #fcc02a;
+  }
+  
+  .paragraph {
+    color: #7b8f8e;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    color: #6e4b61;
+  }
+  
+  .subtitle {
+    color: #cabd61;
+  }
+  .paragraph {
+    color: #c19e74;
+  }
+}
